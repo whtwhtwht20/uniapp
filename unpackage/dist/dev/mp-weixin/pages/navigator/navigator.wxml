@@ -1,0 +1,1 @@
+<view><view>导航跳转的学习</view><navigator url="/pages/detail/detail?id=80">detail</navigator><navigator url="/pages/message/message" open-type="switchTab">message</navigator><button data-event-opts="{{[['tap',[['goDetail',['$event']]]]]}}" bindtap="__e">goDetail</button><button data-event-opts="{{[['tap',[['goMessage',['$event']]]]]}}" bindtap="__e">goMessage</button></view>

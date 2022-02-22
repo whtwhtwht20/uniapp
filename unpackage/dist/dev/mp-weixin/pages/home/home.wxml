@@ -1,0 +1,1 @@
+<view><view>{{key}}</view><view>{{msg+(1+1)}}</view></view>

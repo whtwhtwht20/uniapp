@@ -1,0 +1,111 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path":"pages/navigator/navigator",
+			"style": {
+				"navigationBarTitleText": "navigator"
+			}
+			
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "message",
+				"h5": {
+					"pullToRefresh": {
+						"color":"#007AFF"
+					}
+				}
+				
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "list",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 200
+			}
+		},
+		
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "home"
+			}
+		},
+		{
+			"path": "pages/uni-style/uni-style",
+			"style": {
+				"navigationBarTitleText": "uni-style"
+			}
+		},
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情页"
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText": "contact"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#2C405A",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "light",
+		"onReachBottomDistance": 20
+	},
+	"tabBar": {
+		"color": "#A0522D",
+		"selectedColor":"#B3EE3A",
+		"backgroundColor":"#FFF",
+		"borderStyle":"white",
+		"position":"bottom",
+		"list":[
+			{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabs/home.png",
+			"selectedIconPath": "static/tabs/home-active.png"
+			},
+			{
+				"text": "信息",
+				"pagePath": "pages/message/message",
+				"iconPath": "static/tabs/message.png",
+				"selectedIconPath": "static/tabs/message-active.png"
+			},
+			{
+				"text": "我们",
+				"pagePath": "pages/contact/contact",
+				"iconPath": "static/tabs/contact.png",
+				"selectedIconPath": "static/tabs/contact-active.png"
+			}
+		]
+	},
+	"condition":{
+		"current": 0,
+		"list": [
+			{
+				"path": "pages/detail/detail",
+				"query": "id=80",
+				"name": "详情页"
+			}
+		]
+	}
+	
+}

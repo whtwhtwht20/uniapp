@@ -1,0 +1,19 @@
+
+.red {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+.blue {
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
+.pink {
+	background: pink;
+}
+.yellow {
+	background: yellow;
+}
+
+
